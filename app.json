@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Kazalarım",
-    "slug": "kazalarim",
+    "slug": "Kazalarim",
     "icon": "./assets/app_logo.png",
     "splash": {     
       "image": "./assets/app_logo.png", 
