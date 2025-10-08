@@ -1,31 +1,33 @@
 {
   "expo": {
-    "name": "Kazalarim",
-    "slug": "Kazalarim",
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
-    "newArchEnabled": true,
-    "splash": {
-      "image": "./assets/splash-icon.png",
+    "name": "Kazalarım",
+    "slug": "kazalarim",
+    "icon": "./assets/app_logo.png",
+    "splash": {     
+      "image": "./assets/app_logo.png", 
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#307765" 
     },
     "ios": {
+      "icon": "./assets/app_logo.png",
       "supportsTablet": true,
       "bundleIdentifier": "com.baytech.kazalarim"
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "foregroundImage": "./assets/app_logo.png",
+        "backgroundColor": "#307765"
       },
       "edgeToEdgeEnabled": true,
       "package": "com.baytech.kazalarim"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e8c91beb-8915-499e-ae52-55f16bce6f30"
+      }
     }
   }
 }
